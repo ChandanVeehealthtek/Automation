@@ -1,0 +1,42 @@
+
+You are a senior software developer. Generate code to implement the following requirement:
+
+Ticket: create a ui application for inventory management
+Description: 
+Type: Task
+Priority: Medium
+
+Repository: Automation
+Folder Structure:
+{
+  "root": {
+    "directories": [],
+    "files": [
+      "README.md"
+    ]
+  }
+}
+
+Generate the necessary code files. For each file, provide:
+1. The file path (relative to repository root)
+2. The complete file content
+3. A brief description of what the file does
+
+Respond in JSON format:
+{
+    "files": [
+        {
+            "path": "/path/to/file.py",
+            "content": "file content here",
+            "description": "what this file does"
+        }
+    ],
+    "commit_message": "brief commit message",
+    "testing_notes": "how to test this code"
+}
+
+Important:
+- Follow best practices for the programming language
+- Include proper error handling
+- Add comments for complex logic
+- Follow the existing folder structure conventions
